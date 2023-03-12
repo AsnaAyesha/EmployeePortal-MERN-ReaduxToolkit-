@@ -1,0 +1,95 @@
+.FooterSection {
+    display: flex;
+    background-color: #1877f2;
+    color: #ffffff;
+}
+
+.Left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Desc {
+    margin: 20px 0px;
+}
+
+.SocialContainer {
+    display: flex;
+}
+
+.SocialIcon {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.Facebook {
+    background-color: #3B5999;
+}
+
+.Instagram {
+    background-color: #E4405F;
+}
+
+.Twitter {
+    background-color: #55ACEE;
+}
+
+.Pinterest {
+    background-color: #E60023;
+}
+
+.Center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.LinkTitle {
+    margin-bottom: 20px;
+}
+
+.List {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ListItem {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.Right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ContactTitle{
+    margin-bottom: 20px;
+}
+
+.ContactItem{
+    margin-bottom: 20px;
+display: flex;
+align-items: center;
+}
+
+.Payment{
+    width: 50%;
+}
+

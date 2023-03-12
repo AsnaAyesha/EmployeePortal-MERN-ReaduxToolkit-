@@ -1,0 +1,22 @@
+.ListEmployeeForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EmployeeListTitle{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+.AddEmployeeLink{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+    
+}

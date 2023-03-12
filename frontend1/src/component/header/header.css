@@ -1,0 +1,35 @@
+.LinkColor{
+    color: white;
+    text-decoration: none;
+   
+}
+.LinkColor:hover{
+    color: beige;
+}
+.Headersection{
+    background-color: #1877f2;
+}
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Right{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    
+    
+    /* padding: 20px; */
+}
+
+.TextAlign{
+    margin-left: auto;
+    margin-right: 16px;
+    
+}
+.TextAlign1{
+    margin-left: auto;
+    margin-right: 40px;
+}

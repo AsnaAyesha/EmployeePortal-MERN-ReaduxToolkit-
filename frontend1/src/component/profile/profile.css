@@ -1,0 +1,56 @@
+.UserProfileContainer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserProfileForm{
+    width: 500px;
+	height: 350px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		        0px 3px 4px 0px rgb(0 0 0 / 14%), 
+                0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.UserProfileFormContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.UserProfileFormHeading{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.UserProfileLeft{
+    flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.UserProfileInput{
+    outline: none;
+    border: none;
+	width: 300px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 5px;
+	font-size: 14px;
+}
